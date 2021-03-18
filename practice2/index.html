@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>2021 Microsoft Exchange Server data breach</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>2021 Microsoft Exchange Server data breach</h1>
+        <hr>
+        <p>From Wikipedia, the free encyclopedia</p>
+        <p>A global wave of cyberattacks and data breaches began in January 2021 after four zero-day exploits were
+            discovered in
+            on-premises Microsoft Exchange Servers, giving attackers full access to user emails and passwords on
+            affected
+            servers, administrator privileges on the server itself, and access to connected devices on the same network.
+            Attackers typically install a backdoor that allows the attacker full access to impacted servers even if the
+            server
+            is later updated to no longer be vulnerable to the original exploits. As of 9 March 2021, it was estimated
+            that
+            250,000 servers fell victim to the attacks, including servers belonging to around 30,000 organisations in
+            the United
+            States, 7,000 servers in the United Kingdom,[8] as well as the European Banking Authority and the Norwegian
+            Parliament.[9][10][11]
+            <br>
+            Small and medium businesses, local institutions, and local governments are known to be the primary victims
+            of the
+            attack, as they often have smaller budgets to secure against cyber threats and typically outsource IT
+            services to
+            local providers that do not have the expertise to deal with cyber attacks.[12]
+            <br>
+            On 12 March 2021, Microsoft announced the discovery of "a new family of ransomware" being deployed to
+            servers
+            initially infected, encrypting all files, making the server inoperable and demanding payment to reverse the
+            damage.[13]
+        </p>
+        <div class="content">
+            <h4>Content</h4>
+            <ol>
+                <li><a href="#back">Background</a></li>
+                <li><a href="#imp">Impact</a></li>
+                <li><a href="#met">Methodology</a></li>
+                <li><a href="#resp">Responses</a></li>
+                <li><a href="#also">See also</a></li>
+            </ol>
+        </div>
+        <h2 id="back">Background</h2>
+        <hr>
+        <p>Microsoft Exchange is considered a high-value target for hackers looking to penetrate business networks as it
+            is
+            email server software, and, according to Microsoft, it provides "a unique environment that could allow
+            attackers to
+            perform various tasks using the same built-in tools or scripts that admins use for maintenance."[14] In the
+            past,
+            Microsoft Exchange has been attack`ed by multiple nation-state groups.[15][16]</p>
+
+        <p>On 5 January 2021, security testing company DEVCORE made the earliest known report of the vulnerability to
+            Microsoft, which Microsoft verified on 8 January.[17] The first breach of a Microsoft Exchange Server
+            instance was
+            observed by cybersecurity company Volexity on 6 January 2021.[1] According to Microsoft, the attack was
+            initially
+            perpetrated by the Hafnium hacking group, which Microsoft has alleged to be "state-sponsored and operating
+            out of
+            China".[5][18][6] By the end of January, cybersecurity company Volexity had observed a breach allowing
+            attackers to
+            spy on two of their customers, and alerted Microsoft to the vulnerability. After Microsoft was alerted of
+            the
+            breach, Volexity noted the hackers became less stealthy in anticipation of a patch.[18]</p>
+
+        <p>Another cybersecurity company, ESET, wrote on 2 March that they were observing multiple attackers besides
+            Hafnium
+            exploiting the vulnerabilities.[4] Wired reported on 10 March that now that the vulnerability had been
+            patched, many
+            more attackers were going to reverse engineer the fix to exploit still-vulnerable servers. Analysts at two
+            security
+            firms reported they had begun to see evidence that attackers were preparing to run cryptomining software on
+            the
+            servers.[19]</p>
+
+        <p>On 10 March, security researcher Nguyen Jang posted proof-of-concept code to Microsoft-owned Github on how
+            the
+            exploit works, totalling 169 lines of code; the program was intentionally written with errors so that while
+            security
+            researchers could understand how the exploit works, malicious actors would not be able to use the code to
+            access
+            servers. Later that day, Github removed the code as it "contains proof of concept code for a recently
+            disclosed
+            vulnerability that is being actively exploited".[20][21]</p>
+
+        <p>The attacks came shortly after the 2020 United States federal government data breach, which also saw the
+            compromising of Microsoft's Outlook web app and supply chain. Microsoft said there was no connection between
+            the two
+            incidents.</p>
+
+        <h2 id="imp">Impact</h2>
+        <hr>
+        <p>Hackers have exploited the vulnerabilities to spy on a wide range of targets, affecting an estimated 250,000
+            servers.[11][33] Microsoft's Tom Burt wrote in a blog post that targets had included disease researchers,
+            law
+            offices, universities, defence contractors, non-governmental organisations and think tanks.[34][9][35] The
+            attack
+            was discovered after attackers were discovered downloading all emails belonging to specific users on
+            separate
+            corporate Exchange servers.[26] An undisclosed Washington think tank reported attackers sending convincing
+            emails to
+            contacts in a social engineering attack that encouraged recipients to click on a link.[35] On 11 March 2021,
+            Norway's parliament, the Storting, reported being a victim of the hack, stating that "data has been
+            extracted."[36]</p>
+
+        <p>Small and medium businesses, and local institutions such as schools and local governments, are known to be
+            the
+            primary victims of the attack, as they typically operate under smaller budgets to deal with cyber threats
+            and
+            outsource their IT to local firms without expertise in cybersecurity. Rural victims are noted to be "largely
+            on
+            their own", as they are typically without access to IT service providers.[12] On 11 March 2021, Check Point
+            Research
+            revealed that in the prior 24 hours "the number exploitation attempts on organizations it tracks tripled
+            every two
+            to three hours."[37][38]</p>
+
+        <p>The European Banking Authority also reported that it had been targeted in the attack,[10] later stating in a
+            press
+            release that the scope of impact on its systems was "limited" and that "the confidentiality of the EBA
+            systems and
+            data has not been compromised".[39]</p>
+
+        <p>Security company ESET identified "at least 10" advanced persistent threat groups compromising IT,
+            cybersecurity,
+            energy, software development, public utility, real estate, telecommunications and engineering businesses, as
+            well as
+            Middle Eastern and South American governmental agencies. One APT group was identified deploying PowerShell
+            downloaders, using affected servers for cryptocurrency mining.[28] Cybereason CEO Lior Div noted that APT
+            group
+            Hafnium "targeted small and medium-sized enterprises ... The assault against Microsoft Exchange is 1,000
+            times more
+            devastating than the SolarWinds attack."[40]</p>
+
+        <p>On 12 March 2021, Microsoft Security Intelligence announced "a new family of ransomware" called DearCry being
+            deployed to the servers that had been initially infected, encrypting device contents, making servers
+            unusable and
+            demanding payment to recover files.[13] Microsoft stated: "There is no guarantee that paying the ransom will
+            give
+            you access to your files."[41]</p>
+        <h2 id="met">Methodology</h2>
+        <hr>
+        <p>Hackers took advantage of four separate zero-day vulnerabilities to compromise Microsoft Exchange servers'
+            Outlook
+            Web Access (OWA),[2] giving them access to victims' entire servers and networks as well as to emails and
+            calendar
+            invitations,[4] only at first requiring the address of the server, which can be directly targeted or
+            obtained by
+            mass-scanning for vulnerable servers, and any valid email and password combination, which is typically
+            obtained
+            through credential stuffing. After successfully logging in as any user, attackers can then take the ASP.NET
+            session
+            ID and the ViewStateGenerator directly from the server, and by passing both back to the server, an OWA SSRF
+            vulnerability can be exploited, allowing attackers to connect to the server remotely and impersonate
+            administrators,
+            gaining their privileges.[23] The attackers then upload code to the server that automatically runs with
+            administrator privileges and installs a web shell, providing a backdoor to the compromised server,[24] which
+            gives
+            hackers continued access to the server as long as both the web shell remains active and the Exchange server
+            remains
+            on.[25]</p>
+
+        <p>Through the web shell installed by attackers, commands can be run remotely. Among the actions observed are
+            the
+            downloading of all emails from servers, downloading the passwords and email addresses of users as Microsoft
+            Exchange
+            stores these unencrypted in memory, adding users, adding further backdoors to affected systems, accessing
+            other
+            systems in the network that are unsusceptible to the original exploit, and installing ransomware.[26][7] As
+            patching
+            the Exchange server against the exploit does not retroactively remove installed backdoors, attackers
+            continue to
+            have access to the server until the web shell, other backdoors and user accounts added by attackers are
+            removed.[27]</p>
+
+        <p>As of 12 March 2021, there are at least ten distinct groups exploiting the vulnerabilities, including
+            Hafnium. Each
+            is using different styles and different procedures.[28][25] On 27 and 28 February 2021, there was an
+            automated
+            attack, and on 2 and 3 March 2021, attackers used a script to return to the addresses to drop a web shell to
+            enable
+            them to return later.[25] Referring to the week ending 7 March, CrowdStrike co-founder Dmitri Alperovitch
+            stated:
+            "Every possible victim that hadn't patched by mid-to-end of last week has already been hit by at least one
+            or
+            several actors..[29] After the patch was announced, the tactics changed when using the same chain of
+            vulnerabilities.[25][30]</p>
+
+        <p>Microsoft Exchange Server versions of 2010, 2013, 2016 and 2019 were confirmed to be susceptible, although
+            vulnerable editions are yet to be fully determined.[31] Cloud-based services Exchange Online and Office 365
+            are not
+            affected.[32]</p>
+
+        <h2 id="resp">Responses</h2>
+        <hr>
+        <p>On 2 March 2021, the Microsoft Security Response Center (MSRC) publicly posted an out-of-band Common
+            Vulnerabilities
+            and Exposures (CVE) release, urging its clients to patch their Exchange servers to address a number of
+            critical
+            vulnerabilities.[3]</p>
+
+        <p>On 3 March 2021, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) issued an emergency
+            directive
+            forcing government networks to update to a patched version of Exchange. On 8 March, CISA tweeted what NBC
+            News
+            described as an "unusually candid message" urging "ALL organizations across ALL sectors" to address the
+            vulnerabilities.[42][43]</p>
+
+        <p>Other official bodies expressing concerns included the White House, Norway's National Security Authority and
+            the
+            Czech Republic's Office for Cyber and Information Security.[44][45] On 7 March 2021, CNN reported that the
+            Biden
+            administration was expected to form a task force to address the breach;[46] the Biden administration has
+            invited
+            private-sector organizations to participate in the task force and will provide them with classified
+            information
+            as
+            deemed necessary. US National Security Advisor Jake Sullivan stated that the U.S. is not yet in a position
+            to
+            attribute blame for the attacks.[37]</p>
+
+        <p>The Chinese government has said it was not involved with the attacks, describing Microsoft's allegations of
+            involvement as "groundless"</p>
+
+        <h2 id="also">See also</h2>
+        <hr>
+        <div class="dflex">
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Chinese_cyberwarfare">Chinese cyberwarfare</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Chinese_espionage_in_the_United_States">Chinese espionage in
+                    the
+                    United States</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Cyberwarfare_in_the_United_States">Cyberwarfare in the United
+                    States</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Cyberwarfare_in_the_United_States">Global surveillance
+                    disclosures
+                    (2013–present)</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/List_of_data_breaches">List of data breaches</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/2020_United_States_federal_government_data_breach">2020
+                    United States
+                    federal government data breach</a></li>
+            </ul>
+        </div>
+
+    </body>
+</html>
